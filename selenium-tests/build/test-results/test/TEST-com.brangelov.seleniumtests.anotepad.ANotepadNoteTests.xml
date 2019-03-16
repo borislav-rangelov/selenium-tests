@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.brangelov.seleniumtests.anotepad.ANotepadNoteTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-16T23:31:13" hostname="BORISLAV-DESCTOP" time="121.343">
+  <properties/>
+  <testcase name="createsNote" classname="com.brangelov.seleniumtests.anotepad.ANotepadNoteTests" time="33.215"/>
+  <testcase name="createsNote" classname="com.brangelov.seleniumtests.anotepad.ANotepadNoteTests" time="32.256"/>
+  <system-out><![CDATA[2019-03-17 01:31:13.446  INFO 14640 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.brangelov.seleniumtests.anotepad.ANotepadNoteTests], using SpringBootContextLoader
+2019-03-17 01:31:13.447  INFO 14640 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.brangelov.seleniumtests.anotepad.ANotepadNoteTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-17 01:31:13.450  INFO 14640 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-17 01:31:13.451  INFO 14640 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@69034786, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4a0d0ac, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7832a29a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3bc99f11, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4885d099, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4a224c95, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@27e90139, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@50af23c2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@36c83056]
+2019-03-17 01:31:15.643  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2019-03-17 01:31:30.489  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: OSS
+2019-03-17 01:32:44.722  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2019-03-17 01:33:00.221  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: OSS
+]]></system-out>
+  <system-err><![CDATA[1552779073979	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Borislav\\AppData\\Local\\Temp\\rust_mozprofile.8Q9UJb9j9M1a"
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779074343	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 16588, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779075192	Marionette	INFO	Listening on port 55689
+1552779075590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552779075633	Marionette	DEBUG	Register listener.js for window 4294967297
+1552779075653	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1552779076223	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1552779076224	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1552779076480	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/"
+1552779077067	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/"
+1552779077215	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/"
+1552779077365	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/"
+1552779077372	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/"
+1552779077461	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967314"
+1552779077462	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1552779077462	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1552779077462	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967316"
+1552779077463	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+1552779077464	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1552779077508	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/create_account"
+1552779078628	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/create_account"
+1552779078811	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/create_account"
+1552779079147	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/create_account"
+1552779079152	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/create_account"
+1552779079187	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967334"
+1552779079188	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967337"
+1552779079188	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967329"
+1552779079188	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967322"
+1552779079189	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967339"
+1552779079189	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967331"
+1552779079189	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967324"
+1552779079261	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/"
+1552779080149	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/"
+1552779080464	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/"
+1552779080617	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/"
+1552779080620	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/"
+1552779080657	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967357"
+1552779080658	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967358"
+1552779080658	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967363"
+1552779080659	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967352"
+1552779080659	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967345"
+1552779080659	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967365"
+1552779080659	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967353"
+1552779080660	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967347"
+1552779080730	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/notes/dshqpi"
+1552779080890	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/notes/dshqpi"
+1552779081219	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/notes/dshqpi"
+1552779081377	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/notes/dshqpi"
+1552779081378	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/notes/dshqpi"
+1552779081412	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967373"
+1552779081490	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/notes/dshqpi"
+1552779081648	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/notes/dshqpi"
+1552779086979	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 16588, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5020, Chrome_ChildThread] WARNI[Parent 16588, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Child 8756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chr[GPU 11596, Chrome_ChildThread] WARNING: pipe error: 109: f
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 1931
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+1552779163063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Borislav\\AppData\\Local\\Temp\\rust_mozprofile.hRuVoa1EgfVC"
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779163424	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9248, Chrome_ChilUnable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779164293	Marionette	INFO	Listening on port 56340
+1552779164674	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552779164711	Marionette	DEBUG	Register listener.js for window 4294967297
+1552779164730	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1552779165310	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1552779165310	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1552779165742	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/"
+1552779166343	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/"
+1552779166485	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/"
+1552779166635	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/"
+1552779166639	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/"
+1552779166749	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/create_account"
+1552779166750	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1552779166750	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967316"
+1552779166750	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1552779166751	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1552779166751	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967318"
+1552779166751	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1552779166751	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1552779167892	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/create_account"
+1552779168103	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/create_account"
+1552779168406	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/create_account"
+1552779168408	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/create_account"
+1552779168444	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967336"
+1552779168444	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967338"
+1552779168445	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967331"
+1552779168445	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967324"
+1552779168445	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967340"
+1552779168446	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967333"
+1552779168446	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967326"
+1552779168524	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/"
+1552779169824	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/"
+1552779170141	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/"
+1552779170294	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/"
+1552779170297	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/"
+1552779170339	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967358"
+1552779170339	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967360"
+1552779170340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967353"
+1552779170340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1552779170340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967362"
+1552779170340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967354"
+1552779170340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967348"
+1552779170409	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/notes/y44rs4"
+1552779170604	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/notes/y44rs4"
+1552779170937	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/notes/y44rs4"
+1552779171096	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/notes/y44rs4"
+1552779171097	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/notes/y44rs4"
+1552779171138	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967370"
+1552779171206	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/notes/y44rs4"
+1552779171380	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/notes/y44rs4"
+1552779176711	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 15008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10220, Chr[Parent 15008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13832, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Child 13832, Chrome_[GPU 16340, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 48725
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+</testsuite>

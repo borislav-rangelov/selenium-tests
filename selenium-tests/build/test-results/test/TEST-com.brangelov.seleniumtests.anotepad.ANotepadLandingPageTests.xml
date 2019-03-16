@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-03-16T23:30:21" hostname="BORISLAV-DESCTOP" time="106.69">
+  <properties/>
+  <testcase name="landingPageLoadsTest" classname="com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests" time="9.663"/>
+  <testcase name="canNavigateToLoginRegister" classname="com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests" time="12.087"/>
+  <testcase name="landingPageLoadsTest" classname="com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests" time="9.221"/>
+  <testcase name="canNavigateToLoginRegister" classname="com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests" time="11.92"/>
+  <system-out><![CDATA[01:30:20.323 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]
+01:30:20.329 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:30:20.336 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:30:20.352 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:30:20.361 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests], using SpringBootContextLoader
+01:30:20.364 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]: class path resource [com/brangelov/seleniumtests/anotepad/ANotepadLandingPageTests-context.xml] does not exist
+01:30:20.364 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]: class path resource [com/brangelov/seleniumtests/anotepad/ANotepadLandingPageTestsContext.groovy] does not exist
+01:30:20.364 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:30:20.405 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]
+01:30:20.517 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]: using defaults.
+01:30:20.517 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+01:30:20.523 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+01:30:20.524 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+01:30:20.525 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+01:30:20.525 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@307f13fe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2969ed99, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@15f5790f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@39d92171, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@71712557, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@17920bc5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@29912539, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59b34bd3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2110862f]
+01:30:20.527 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]
+01:30:20.527 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]
+01:30:20.528 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]
+01:30:20.528 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]
+01:30:20.532 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6d42a95d testClass = ANotepadLandingPageTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4695cde4 testClass = ANotepadLandingPageTests, locations = '{}', classes = '{class com.brangelov.seleniumtests.SeleniumTestsApplication, class com.brangelov.seleniumtests.SeleniumTestsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:application.properties}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@e744105, [ImportsContextCustomizer@235bfcbc key = [com.brangelov.seleniumtests.SeleniumConfig]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@97fa50f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@67cf94c8, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6eef416b], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+01:30:20.532 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]
+01:30:20.532 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests]
+01:30:20.535 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@6d42a95d testClass = ANotepadLandingPageTests, testInstance = com.brangelov.seleniumtests.anotepad.ANotepadLandingPageTests@725c2ff3, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4695cde4 testClass = ANotepadLandingPageTests, locations = '{}', classes = '{class com.brangelov.seleniumtests.SeleniumTestsApplication, class com.brangelov.seleniumtests.SeleniumTestsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{classpath:application.properties}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@e744105, [ImportsContextCustomizer@235bfcbc key = [com.brangelov.seleniumtests.SeleniumConfig]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@97fa50f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@67cf94c8, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6eef416b], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+01:30:20.558 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2019-03-17 01:30:20.758  INFO 14640 --- [    Test worker] c.b.s.anotepad.ANotepadLandingPageTests  : Starting ANotepadLandingPageTests on BORISLAV-DESCTOP with PID 14640 (started by Borislav in D:\Workspace\uni\selenium-tests)
+2019-03-17 01:30:20.759  INFO 14640 --- [    Test worker] c.b.s.anotepad.ANotepadLandingPageTests  : No active profile set, falling back to default profiles: default
+2019-03-17 01:30:21.132  INFO 14640 --- [    Test worker] c.b.s.anotepad.ANotepadLandingPageTests  : Started ANotepadLandingPageTests in 0.572 seconds (JVM running for 1.325)
+2019-03-17 01:30:23.989  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2019-03-17 01:30:28.528  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: OSS
+2019-03-17 01:30:32.990  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2019-03-17 01:30:39.022  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: OSS
+2019-03-17 01:31:48.887  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2019-03-17 01:31:53.478  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: OSS
+2019-03-17 01:31:58.095  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: W3C
+2019-03-17 01:32:03.229  INFO 14640 --- [ null to remote] o.o.selenium.remote.ProtocolHandshake    : Detected dialect: OSS
+]]></system-out>
+  <system-err><![CDATA[1552779022254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Borislav\\AppData\\Local\\Temp\\rust_mozprofile.yfmqdtbegtpP"
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779022852	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17144, Chrome_ChildThread] WARNING: pipe errUnable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779023788	Marionette	INFO	Listening on port 55192
+1552779023924	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552779023963	Marionette	DEBUG	Register listener.js for window 4294967297
+1552779024038	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1552779024626	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1552779024626	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1552779025090	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/"
+1552779025685	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/"
+[Parent 2592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromiu[Parent 2592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/ch
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+rome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 4128, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 47537
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+1552779031327	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Borislav\\AppData\\Local\\Temp\\rust_mozprofile.HDsTdH7ii5ld"
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779031678	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/buUnable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779032542	Marionette	INFO	Listening on port 55299
+1552779032937	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552779032979	Marionette	DEBUG	Register listener.js for window 4294967297
+1552779033001	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1552779033613	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1552779033613	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1552779034095	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/"
+1552779034600	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1552779034633	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/"
+1552779034693	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/"
+1552779034859	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/"
+1552779034865	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/"
+1552779034994	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/create_account"
+1552779034995	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1552779034995	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1552779034995	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1552779034995	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967317"
+1552779034996	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1552779034996	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1552779036388	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/create_account"
+[Child 10504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10504, Chrome_ChildThread] WARNING: pipe error: 109: fil[Parent 9776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 44118
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+1552779107229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Borislav\\AppData\\Local\\Temp\\rust_mozprofile.tJM6gsiOAaNf"
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779107586	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9524, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779108456	Marionette	INFO	Listening on port 55833
+1552779108840	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552779108877	Marionette	DEBUG	Register listener.js for window 4294967297
+1552779108897	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1552779109473	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1552779109474	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1552779109727	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/"
+1552779110251	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1552779110363	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/"
+[Child 9732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[Child 14116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 18396, Chrome_ChildThread] WARNIN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 22974
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+1552779116428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Borislav\\AppData\\Local\\Temp\\rust_mozprofile.AJzdMkn9jSCE"
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779116788	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5356, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10548, Chrome_ChildThread] WUnable to read VR Path Registry from C:\Users\Borislav\AppData\Local\openvr\openvrpaths.vrpath
+1552779117658	Marionette	INFO	Listening on port 55939
+1552779118038	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552779118085	Marionette	DEBUG	Register listener.js for window 4294967297
+1552779118105	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1552779118676	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1552779118676	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1552779119161	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/"
+1552779119683	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+1552779119728	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/"
+1552779119764	Marionette	DEBUG	Received DOM event "beforeunload" for "https://anotepad.com/"
+1552779119914	Marionette	DEBUG	Received DOM event "pagehide" for "https://anotepad.com/"
+1552779119918	Marionette	DEBUG	Received DOM event "unload" for "https://anotepad.com/"
+1552779120027	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://anotepad.com/create_account"
+1552779120027	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967313"
+1552779120028	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1552779120028	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1552779120028	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967317"
+1552779120028	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1552779120028	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1552779120611	Marionette	DEBUG	Received DOM event "pageshow" for "https://anotepad.com/create_account"
+[Child 4372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4372, Chrome_ChildThread][Child 6968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Child 6968, Chrome_ChildThread][GPU 18368, Chrome_ChildThre
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 39904
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+</testsuite>
